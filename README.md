@@ -1,4 +1,4 @@
-# oss-audit--24BEC10038-
+# oss-audit--24BEC10038
 The Open Source Audit
 ## Student Details
 Name: Pranati Vashishtha
@@ -20,4 +20,31 @@ Script 3 — Disk and Permission Auditor: This script loops through a list of im
 Script 4 — Log File Analyzer: This script reads a log file line by line and counts how many lines contain a specific keyword like error or WARNING. It accepts the log file path and keyword as command-line arguments, defaults to "error" if no keyword is given, and checks if the file exists before processing. It uses a while read loop with grep to match lines, increments a counter for each match, and finally prints a summary. It also displays the last 5 matching lines using grep piped into tail -5.
 ### script5.sh
 Script 5 — Open Source Manifesto Generator: This is the most creative script. It interactively asks the user three questions — their favourite open-source tool, their one-word meaning of freedom, and something they would build and share freely. It then uses string concatenation to weave all three answers into a beautifully formatted personal open-source philosophy statement, saves it to a personalized .txt file using the > operator, and displays it on the terminal.
-## How to run
+
+## Steps to Run the Scripts on Linux
+Follow the steps below to execute the scripts:
+### Step 1: Open Terminal
+Open the terminal in your Linux system.
+---
+### Step 2: Clone the Repository
+Download the repository using:
+```bash
+git clone https://github.com/<your-username>/oss-audit-24BEC10038.git
+### Step 3: Navigate to the Folder
+cd oss-audit-24BEC10038
+### Step 4: Provide Execute Permission
+chmod +x *.sh
+### Step 5: Run Each Script Individually
+./script1.sh
+./script2.sh
+./script3.sh
+./script4.sh
+./script5.sh
+### Step 6: View Output
+The output of each script will be displayed directly on the terminal screen after execution.
+
+## Dependencies
+The following are required:
+Linux Operating System (Ubuntu recommended)
+Bash Shell
+Git
